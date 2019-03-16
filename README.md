@@ -15,4 +15,4 @@
 
 You need guaranteed delivery (only) when you’re passing messages over the network.
 
-[Why You Should Try to Avoid Exactly Once Message Delivery](https://petabridge.com/blog/akkadotnet-exactly-once-message-delivery/): use idemponent data structures (to allow for duplicate messages) in the at-least-once systems.
+[Why You Should Try to Avoid Exactly Once Message Delivery](https://petabridge.com/blog/akkadotnet-exactly-once-message-delivery/): use idempotent data structures (to allow for duplicate messages) in the at-least-once systems.

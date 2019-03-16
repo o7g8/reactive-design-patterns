@@ -13,7 +13,7 @@ namespace pattern_pull
             var manager = actorSystem.ActorOf<Manager>("manager");
             manager.Tell(new ComputeAlternatingHarmonicSeries {Value = 1000});
             
-            Console.ReadKey();
+            Console.Read();
             actorSystem.Stop(manager);
         }
     }

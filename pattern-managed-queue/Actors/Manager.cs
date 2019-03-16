@@ -30,7 +30,7 @@ namespace pattern_managed_queue.Actors
                         } else {
                             // reject new job if our buffer of pending jobs
                             // is full and no consumers are requesting new jobs
-                            job.ReplyTo.Tell(new JobRejected {Id = job.Id});
+                            job.ReplyTo.Tell(new JobRejected(id: job.Id));
                         }
                     } else {
                         var request = RequestQueue.Dequeue();

@@ -10,7 +10,7 @@ namespace pattern_pull.Actors
 {
     /* The Manager doesn't handle situation with undelivered messages to/from workers,
        therefore there are risks of:
-       - "starwing" workers out of job;
+       - "starving" workers out of job;
        - not received computation results and hence overall computation is never done. */
     public class Manager : UntypedActor {
         private readonly List<IActorRef> Workers = new List<IActorRef>();

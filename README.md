@@ -4,7 +4,9 @@
 
 [Designing Akka.NET Applications from Scratch Part 1: Go with the Flow](https://petabridge.com/blog/akkadotnet-application-design-part1/)
 
-# Facts about AKKA.NET
+[Zoran Maksimovic - Akka.NET Succinctly](https://www.syncfusion.com/ebooks/akka_net_succinctly)
+
+## Facts about AKKA.NET
 
 [Message Delivery Reliability](https://getakka.net/articles/concepts/message-delivery-reliability.html)
 
@@ -16,3 +18,24 @@
 You need guaranteed delivery (only) when you’re passing messages over the network.
 
 [Why You Should Try to Avoid Exactly Once Message Delivery](https://petabridge.com/blog/akkadotnet-exactly-once-message-delivery/): use idempotent data structures (to allow for duplicate messages) in the at-least-once systems.
+
+
+## Working with Actors
+
+[Working with Actors](https://www.syncfusion.com/ebooks/akka_net_succinctly/working-with-actors)
+
+Use async/await only inside of `ReceiveAsync<T>`.
+
+
+## Unit Testing
+
+[How to Unit Test Akka.NET Actors with Akka.TestKit](https://petabridge.com/blog/how-to-unit-test-akkadotnet-actors-akka-testkit/)
+
+[Testing Actor Systems](https://getakka.net/articles/actors/testing-actor-systems.html)
+
+
+## Misc
+
+[Logging](https://getakka.net/articles/utilities/logging.html)
+
+[Circuit Breaker](https://getakka.net/articles/utilities/circuit-breaker.html)

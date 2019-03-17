@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pattern-pipes-and-filters",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pattern-pipes-and-filters.test", "pattern-pipes-and-filters.test\pattern-pipes-and-filters.test.csproj", "{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pattern-message-router", "pattern-message-router\pattern-message-router.csproj", "{116695F7-A9B1-494F-A7A8-8EA962EA881F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|x64.Build.0 = Release|Any CPU
 		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|x86.ActiveCfg = Release|Any CPU
 		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|x86.Build.0 = Release|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Debug|x64.Build.0 = Debug|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Debug|x86.Build.0 = Debug|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Release|x64.ActiveCfg = Release|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Release|x64.Build.0 = Release|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Release|x86.ActiveCfg = Release|Any CPU
+		{116695F7-A9B1-494F-A7A8-8EA962EA881F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

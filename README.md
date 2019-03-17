@@ -33,6 +33,7 @@ Use async/await only inside of `ReceiveAsync<T>`.
 
 [Testing Actor Systems](https://getakka.net/articles/actors/testing-actor-systems.html)
 
+[Unit Testing Akka.NET](https://www.syncfusion.com/ebooks/akka_net_succinctly/unit-testing-akka-net)
 
 ## Misc
 

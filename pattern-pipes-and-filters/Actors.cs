@@ -73,7 +73,7 @@ namespace pattern_pipes_and_filters
         }
     }
 
-    internal class Decrypter : ReceiveActor {
+    public class Decrypter : ReceiveActor {
         private readonly IActorRef Next;
 
         public Decrypter(IActorRef next) {
@@ -91,8 +91,8 @@ namespace pattern_pipes_and_filters
         }
     }
 
-    internal class Authenticator : ReceiveActor {
-        private IActorRef Next;
+    public class Authenticator : ReceiveActor {
+        private readonly IActorRef Next;
 
         public Authenticator(IActorRef next) {
             Next = next;

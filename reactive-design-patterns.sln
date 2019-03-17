@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pattern-pull", "pattern-pul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pattern-pipes-and-filters", "pattern-pipes-and-filters\pattern-pipes-and-filters.csproj", "{D2268FC3-CC21-4CB1-ABD2-2E116760D8E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pattern-pipes-and-filters.test", "pattern-pipes-and-filters.test\pattern-pipes-and-filters.test.csproj", "{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{D2268FC3-CC21-4CB1-ABD2-2E116760D8E8}.Release|x64.Build.0 = Release|Any CPU
 		{D2268FC3-CC21-4CB1-ABD2-2E116760D8E8}.Release|x86.ActiveCfg = Release|Any CPU
 		{D2268FC3-CC21-4CB1-ABD2-2E116760D8E8}.Release|x86.Build.0 = Release|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Debug|x64.Build.0 = Debug|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Debug|x86.Build.0 = Debug|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|x64.ActiveCfg = Release|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|x64.Build.0 = Release|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|x86.ActiveCfg = Release|Any CPU
+		{2AF77EC3-9C64-4718-8F0B-E2CC39CC3ED8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
